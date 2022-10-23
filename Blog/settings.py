@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'Blog',
+    'froala_editor',
+    'home',
 
 ]
 
