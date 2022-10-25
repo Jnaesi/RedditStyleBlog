@@ -21,5 +21,3 @@ class BlogModel(models.Model):
     def save(self, *args, **kwargs):
         self.slug = generate_slug(self.title)
         super(BlogModel, self).save(*args, **kwargs)
-
-
